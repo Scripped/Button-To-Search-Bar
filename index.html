@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Button | Scripped</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <input type="button" id="search" onclick="enlargeinput()" value="Search">
+    </div>
+</body>
+<script>
+    function enlargeinput() {
+        var searchbutton = document.getElementById('search');
+        searchbutton.type = "search";
+        searchbutton.value = "";
+        searchbutton.classList.toggle('searchinput');
+        searchbutton.style.width = "30%";
+        searchbutton.style.background = "#fff";
+        searchbutton.style.fontSize = "2vw";
+        searchbutton.style.cursor = "auto";
+        searchbutton.style.border = "2px solid #ff69ff";
+        searchbutton.style.boxShadow = "none";
+    }
+</script>
+</html>

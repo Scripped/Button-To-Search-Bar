@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    min-height: 100%;
+    background: #ffbbff;
+    font-family: 'Poppins', sans-serif;
+}
+
+input#search.searchinput {
+    width: 30%;
+    background-color: #fff;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+input#search {
+    height: 80px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff69ff;
+    width: 6%;
+    font-size: 1.4vw;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.165, 2, 0.44, 1);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+input#search:hover {
+    width: 7%;
+}
